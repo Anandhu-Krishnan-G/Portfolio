@@ -10,7 +10,7 @@ const gists = document.getElementById('github_gist');
 
 
 async function getUserDetails() {
-	const response = await fetch('https://api.github.com/users/Anandhu-Krishnan-G');
+	const response = await fetch('https://api.github.com/users/Aanandhu-Krishnan-G');
 	const data = await response.json();
 	return data;
 }
